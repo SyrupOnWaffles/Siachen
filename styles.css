@@ -1,0 +1,97 @@
+#parallax{
+  border-style:solid;
+  border-radius: 1%;
+  border-color: grey;
+}
+body {
+    background-color: #2d2d2d;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    color: wheat;
+  }
+h1{
+  transform: translateY(150px);
+  font-style: italic;
+  font-weight:bolder;
+  font-size: 300%;
+  color: wheat;
+}
+h6{
+  transform: translateY(110px);
+  font-style: italic;
+  font-weight:bolder;
+  color: wheat;
+}
+.backgroundParallax {
+  /* The image used */
+  background-image: url("./imgs/mainLandscape.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.landscapeParallax {
+  /* The image used */
+  background-image: url("./imgs/landscape.png");
+
+  /* Set a specific height */
+  min-height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.soldiersParallax {
+  /* The image used */
+  background-image: url("./imgs/soldiers.png");
+
+  /* Set a specific height */
+  min-height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sutlejParallax {
+  /* The image used */
+  background-image: url("./imgs/sutlej.jpeg");
+
+  /* Set a specific height */
+  min-height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#intro {
+  text-align:left;
+  width: 40%;
+}
+#battles{
+  text-align: right ;
+  width: 40%;
+  transform: translateX(150%);
+
+}
+#environment{
+  text-align:left;
+  width: 40%;
+}
+#biblio{
+  text-align:center;
+}
+img{
+  width: 400px;
+}
